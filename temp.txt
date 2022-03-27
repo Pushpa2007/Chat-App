@@ -1,0 +1,6 @@
+    "test": "echo \"Error: no test specified\" && exit 1"
+const io = require('socket.io')(8000, {
+    cors: {
+      origin: '*',
+    }
+  });
